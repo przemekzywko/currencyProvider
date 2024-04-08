@@ -8,6 +8,6 @@ import java.util.List;
 @FeignClient(name = "nbpClient", url = "${nbp.api.url}")
 public interface NbpClient {
 
-    @GetMapping("/api/exchangerates/tables/A")
+    @GetMapping("/api/exchangerates/tables/C")
     List<CurrencyTable> getCurrencyRates();
 }
