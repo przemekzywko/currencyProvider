@@ -1,14 +1,14 @@
-package com.example.currencyprovider.externalClient;
+package com.example.currencyprovider.model;
 
 import lombok.Data;
 
 import java.util.List;
 
 @Data
-public class CurrencyTable {
+public class CurrencyTableDto {
 
     private String table;
     private String no;
     private String effectiveDate;
-    private List<CurrencyRate> rates;
+    private List<CurrencyRateDto> rates;
 }
