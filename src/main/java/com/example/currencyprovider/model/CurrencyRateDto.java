@@ -7,8 +7,8 @@ import java.math.BigDecimal;
 @Data
 public class CurrencyRateDto {
 
-    private String currency;
     private String code;
+    private String currency;
     private BigDecimal bid;
     private BigDecimal ask;
 }
